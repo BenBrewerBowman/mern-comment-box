@@ -1,4 +1,4 @@
-import React, { Component } from 'React';
+import React, { Component } from 'react';
 import Comment from './Comment';
 import style from './style';
 
@@ -18,3 +18,5 @@ class CommentList extends Component {
     )
   }
 }
+
+export default CommentList;
